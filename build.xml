@@ -1,0 +1,40 @@
+<project>
+  
+  <property name="build.dir" location="target"/>
+  <property name="xslt.dir" location="${basedir}/src/xslt"/>
+  
+  <target name="clean">
+    <delete dir="${build.dir}"/>
+  </target>
+  
+  <target name="prepare">
+    <mkdir dir="build.dir"/>
+  </target>
+
+  <target name="enhance-groups" depends="prepare">
+    <xslt in="${basedir}/src/xml/groups.xml"
+          out="${build.dir}/enhanced-groups.xml"
+          style="${xslt.dir}/enhance-groups.xsl"/>
+  </target>
+
+  <target name="build-html" depends="enhance-groups">
+    <xslt in="${build.dir}/enhanced-groups.xml"
+          out="${build.dir}/scala-tribes.html"
+          style="${xslt.dir}/enhanced-groups-to-html.xsl"/>
+  </target>
+
+  <target name="build-kml" depends="enhance-groups">
+    <xslt in="${build.dir}/enhanced-groups.xml"
+          out="${build.dir}/scala-tribes.kml"
+          style="${xslt.dir}/enhanced-to-kml.xsl"/>
+  </target>
+  
+  <target name="build-ical" depends="enhance-groups">
+    <xslt in="${build.dir}/enhanced-groups.xml"
+          out="${build.dir}/scala-tribes.ical"
+          style="${xslt.dir}/enhanced-to-ical-list.xsl"/>
+  </target>
+
+  <target name="build-all" depends="build-html,build-kml"/>
+
+</project>

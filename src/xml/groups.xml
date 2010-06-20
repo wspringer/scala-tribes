@@ -1,0 +1,264 @@
+<groups>
+  <group>
+    <name>pdxscala</name>
+    <url>http://groups.google.com/group/pdxscala/</url>
+    <description>Scala enthusiasts in Portland, Oregon.</description>
+    <feeds>
+      <news>http://groups.google.com/group/pdxscala/feed/rss_v2_0_msgs.xml</news>
+    </feeds>
+    <woeid>2475687</woeid>
+    <calendar>http://calagator.org/events/search.ics?query=pdxscala</calendar>
+  </group>
+  <group>
+    <name>Bay Area Scala Enthusiasts</name>
+    <url>http://groups.google.com/group/scala-base</url>
+    <description>This is a group for the Bay Area Scala Enthusiasts, a User Group that meets at the Googleplex in Mountain View once a month on the second Tuesday of the month. 6pm</description>
+    <feeds>
+      <news>http://groups.google.com/group/scala-base/feed/rss_v2_0_msgs.xml</news>
+    </feeds>
+    <woeid>23511738</woeid>
+  </group>
+  <group>
+    <name>DuSE</name>
+    <url>http://dutch-scala-enthusiasts.ning.com/</url>
+    <description>Dutch Scala Enthusiasts</description>
+    <woeid>23424909</woeid>
+    <calendar>http://www.google.com/calendar/ical/kd6fi800oo1td32lklnsa9s0us%40group.calendar.google.com/public/basic.ics</calendar>
+    <feeds>
+      <news>http://dutch-scala-enthusiasts.ning.com/activity/log/list?fmt=rss</news>
+    </feeds>
+  </group>
+  <group>
+    <name>Boston Area Scala Enthusiasts</name>
+    <url>http://groups.google.com/group/boston-scala</url>
+    <description>Group for Scala enthusiasts from Greater Boston
+    area. Meets in the first week of every month in Google office in
+    Cambridge.</description>
+    <woeid>2367105</woeid>
+    <feeds>
+      <events>http://www.eventbrite.com/rss/organizer_list_events/442834292</events>
+      <news>http://groups.google.com/group/boston-scala/feed/rss_v2_0_msgs.xml</news>
+    </feeds>
+  </group>
+  <group>
+    <name>The Chicago-Area Scala Enthusiasts (CASE) Meetup Group</name>
+    <url>http://groups.google.com/group/chicagoscala</url>
+    <description>Meet other local Software Developers interested in the Scala programming language. Discuss the advantages of Scala, such as full support for Object-Oriented and Functional Programming, a succinct syntax, and other improvements over Java and C#. Discuss the pros and cons of Scala compared to other languages. Learn how to use Scala in Java and .NET environments.</description>
+    <feeds>
+      
+    </feeds>
+    <calendar>http://www.meetup.com/chicagoscala/calendar/ical/The+Chicago-Area+Scala+Enthusiasts+%28CASE%29+Meetup+Group/</calendar>
+    <feeds>
+      <news>http://groups.google.com/group/chicagoscala/feed/rss_v2_0_msgs.xml</news>
+    </feeds>
+    <woeid>2379574</woeid>
+  </group>
+  <group>
+    <name>New York Scala Enthusiasts</name>
+    <url>http://www.meetup.com/New-York-Scala-Enthusiasts/</url>
+    <description>We're the other, better, more awesome NYSE. We're focused on discussing the Scala Programming Language's uses, patterns, and practices.</description>
+    <feeds>
+      <info>http://www.developerfusion.com/usergroup/13182/events/format/rss/</info>
+    </feeds>
+    <calendar>http://www.meetup.com/New-York-Scala-Enthusiasts/calendar/ical/New+York+Scala+Enthusiasts/</calendar>
+    <woeid>2459115</woeid>
+  </group>
+  <group>
+    <name>The Boulder Area Scala Enthusiasts</name>
+    <url>http://www.meetup.com/The-Boulder-Area-Scala-Enthusiasts/</url>
+    <description>Meet other local Scala and Java developers to talk about code, architecture, and innovation. Let's talk about Scala, Java and the JVM.</description>
+    <woeid>2367231</woeid>
+    <calendar>http://www.meetup.com/The-Boulder-Area-Scala-Enthusiasts/calendar/ical/The+Boulder+Area+Scala+Enthusiasts/</calendar>
+  </group>
+  <group>
+    <name>Melbourne Scala User Group</name>
+    <url>http://groups.google.com/group/scala-melb</url>
+    <description></description>
+    <feeds>
+      <news>http://groups.google.com/group/scala-melb/feed/rss_v2_0_msgs.xml</news>
+    </feeds>
+    <woeid>1103816</woeid>
+  </group>
+  <group>
+    <name>London Scala Users' Group</name>
+    <url>http://groups.google.com/group/scala-london</url>
+    <url>http://www.meetup.com/london-scala/</url>
+    <feeds>
+      <news>http://groups.google.com/group/scala-london/feed/rss_v2_0_msgs.xml</news>
+    </feeds>
+    <calendar>http://www.meetup.com/london-scala/calendar/ical/London+Scala+Users%27+Group/</calendar>
+    <woeid>44418</woeid>
+  </group>
+  <group>
+    <name>Paris Scala User Group</name>
+    <description>Le Paris Scala User Group rassemble les utilisateurs
+    du langage Scala : http://www.scala-lang.org/ Nous vous y invitons
+    à partager vos expériences, idées, projets ou connaissances.  Le
+    groupe organise des rencontres périodiques entre membres et
+    occasionnellement des invités.</description>
+    <url>http://groups.google.com/group/paris-scala-user-group</url>
+    <woeid>615702</woeid>
+  </group>
+  <group>
+    <name>Toronto Scala Group</name>
+    <url>http://groups.google.com/group/toronto-scala-group</url>
+    <description>A group for those in the Toronto and surrounding areas to discuss Scala and Scala-related projects.</description>
+    <url>http://groups.google.com/group/toronto-scala-group</url>
+    <woeid>4118</woeid>
+    <feeds>
+      <news>http://groups.google.com/group/toronto-scala-group/feed/rss_v2_0_msgs.xml</news>
+    </feeds>
+  </group>
+  <group>
+    <name>vancouver-scala</name>
+    <url>http://groups.google.com/group/vancouver-scala</url>
+    <description></description>
+    <feeds>
+      <news>http://groups.google.com/group/vancouver-scala/feed/rss_v2_0_msgs.xml</news>
+    </feeds>
+    <woeid>9807</woeid>
+  </group>
+  <group>
+    <name>The Atlanta Scala Meetup Group</name>
+    <url>http://www.meetup.com/atlanta-scala/</url>
+    <description></description>
+    <url>http://www.meetup.com/atlanta-scala/</url>
+    <calendar>http://www.meetup.com/atlanta-scala/calendar/ical/The+Atlanta+Scala+Meetup+Group/</calendar>
+    <woeid>2357024</woeid>
+  </group>
+  <group>
+    <name>Scala Language User Group Italy</name>
+    <url>http://groups.google.com/group/sug-it</url>
+    <feeds>
+      <news>http://groups.google.com/group/sug-it/feed/rss_v2_0_msgs.xml</news>
+    </feeds>
+    <woeid>23424853</woeid>
+  </group>
+  <group>
+    <name>Scala User Group Aarhus</name>
+    <url>http://www.linkedin.com/groupInvitation?groupID=2204501</url>
+    <woeid>552015</woeid>
+  </group>
+  <group>
+    <name>Scala Enthusiasts Dublin</name>
+    <url>http://groups.google.com/group/scala-dub</url>
+    <woeid>560743</woeid>
+    <feeds>
+      <news>http://groups.google.com/group/scala-dub/feed/rss_v2_0_msgs.xml</news>
+    </feeds>
+  </group>
+  <group>
+    <name>Scala勉強会@東北</name>
+    <url>http://sites.google.com/site/scalatohoku/</url>
+    <feeds>
+      <news>http://groups.google.co.jp/group/scala--tohoku/feed/rss_v2_0_msgs.xml</news>
+    </feeds>
+    <calendar>http://www.google.com/calendar/ical/9egfi1njt4pm6iqhmvc3g7e1fs@group.calendar.google.com/public/basic.ics</calendar>
+    <woeid>1118129</woeid>
+  </group>
+  <group>
+    <name>scalaBin</name>
+    <url>http://wiki.java.no/display/scala/Home</url>
+    <woeid>23424910</woeid>
+    <feeds></feeds>
+  </group>
+  <group>
+    <name>Scala Scotland</name>
+    <url>http://www.linkedin.com/groups?gid=2323323</url>
+    <woeid>12578048</woeid>
+    <feeds>
+    </feeds>
+  </group>
+  <group>
+    <name>Scala Sverige</name>
+    <url>http://groups.google.com/group/scala-sverige</url>
+    <woeid>23424954</woeid>
+    <feeds>
+      <news>http://groups.google.com/group/scala-sverige/feed/rss_v2_0_msgs.xml</news>
+    </feeds>
+  </group>
+  <group>
+    <name>Scala Indonesia</name>
+    <url>http://www.facebook.com/group.php?gid=153086226712</url>
+    <woeid>23424846</woeid>
+    <feeds>
+      <news>http://pipes.yahoo.com/pipes/pipe.run?_id=339131128e195ec9e54b1113c833c888&amp;_render=rss&amp;groupid=153086226712</news>
+    </feeds>
+  </group>
+  <group>
+    <name>scala-be</name>
+    <url>http://groups.google.co.jp/group/scala-be</url>
+    <feeds>
+      <news>http://groups.google.co.jp/group/scala-be/feed/rss_v2_0_msgs.xml</news>
+    </feeds>
+    <woeid>1118370</woeid>
+  </group>
+  <group>
+    <name>WrASSE</name>
+    <url>http://groups.google.com/group/wroclaw-scala-enthusiasts</url>
+    <feeds>
+      <news>http://groups.google.com/group/wroclaw-scala-enthusiasts/feed/rss_v2_0_msgs.xml</news>
+    </feeds>
+    <woeid>526363</woeid>
+  </group>
+  <group>
+    <name>Scala-Brasil</name>
+    <url>http://groups.google.com/group/scala-brasil</url>
+    <feeds>
+      <news>http://groups.google.com/group/scala-brasil/feed/rss_v2_0_msgs.xml</news>
+    </feeds>
+    <woeid>23424768</woeid>
+  </group>
+  <group>
+    <name>Scala Turkey User Group</name>
+    <url>http://scala-tr.org</url>
+    <woeid>23424969</woeid>
+  </group>
+  <group>
+    <name>Scala Israel</name>
+    <url>http://www.facebook.com/group.php?gid=206770910670</url>
+    <woeid>23424852</woeid>
+  </group>
+  <group>
+    <name>Scala中文社区</name>
+    <url>http://groups.google.com/group/scalacn</url>
+    <woeid>23424781</woeid>
+    <feeds>
+      <news>http://groups.google.com/group/scalacn/feed/rss_v2_0_msgs.xml</news>
+    </feeds>
+  </group>
+  <group>
+    <name>Zurich Scala Enthusiasts</name>
+    <url>http://www.meetup.com/Zurich-Scala/</url>
+    <woeid>784794</woeid>
+    <feeds>
+    </feeds>
+    <calendar>http://www.meetup.com/Zurich-Scala/calendar/ical/Zurich+Scala+Enthusiasts/</calendar>
+  </group>
+  <group>
+    <name>Scala Users Southern Germany</name>
+    <url>http://scala-southerngermany.mixxt.de/</url>
+    <woeid>2345481</woeid>
+    <feeds>
+      <news>http://scala-southerngermany.mixxt.de/api/rss/news/recent_news</news>
+    </feeds>
+    <language>de</language>
+  </group>
+  <group>
+    <name>ScEnE - Scala Enthusiasten Erlangen-Nürnberg</name>
+    <url>http://scene.johoop.de/tiki-index.php</url>
+    <woeid>680564</woeid>
+    <feeds>
+      <news>http://scene.johoop.de/tiki-index.php</news>
+    </feeds>
+    <language>de</language>
+  </group>
+  <group>
+    <name>Polish Scala Group</name>
+    <url>http://groups.google.com/group/polish-scala-group</url>
+    <woeid>23424923</woeid>
+    <feeds>
+      <news>http://groups.google.com/group/polish-scala-group/feed/rss_v2_0_msgs.xml</news>
+    </feeds>
+  </group>
+</groups>

@@ -1,0 +1,359 @@
+tr th {
+   text-align: left;
+   padding-bottom: 10px;
+   border-bottom: 1px solid;
+}
+
+#message {
+   color: white;
+   background-color: #333333;
+   padding-top: 1px;
+   padding-bottom: 1px;
+   padding-left: 3px;
+   padding-right: 3px;
+}
+
+td {
+   padding-right: 5px;
+}
+
+a { 
+   color: #222222;
+   text-decoration: none;
+}
+
+a:hover {
+   text-decoration: underline;
+   color: #666666;
+}
+
+body {
+   font-family: Arial, Helvetica, sans;
+   font-size: 10pt;
+   text-align: center;
+   background-image:url('background.png');
+}
+
+table {
+   font-size: 10pt;
+}
+
+#main {
+   margin-top: 28px;
+   width: 800px;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: left;
+   background-color: white;
+}
+
+#body {
+   margin-left: 28px;
+   margin-right: 28px;
+}
+
+#masthead {
+   margin-left: 28px;
+   margin-right: 28px;
+}
+
+#titlebar {
+   padding-top: 14px;
+}
+
+#titleblock {
+   float: left;
+}
+
+#title {
+   font-family: TitilliumText22L;
+   font-weight: 800;
+   font-size: 27pt;
+}
+
+#subtitle {
+   font-family: TitilliumText22L;
+   font-weight: 250;
+   font-size: 10pt;
+   margin-top: -4px;
+   margin-bottom: 10px;
+}
+
+#menu {
+   padding-top: 10px;
+   float: right;
+}
+
+#left {
+   float: left;
+   width: 33%;
+}
+
+#middle {
+   float: left;
+   width: 33%;
+}
+
+#right {
+   float: right;
+   width: 33%;
+}
+
+#remainder {
+   padding-top: 20px;
+   clear: both;
+   float: none;
+   padding-bottom: 40px;
+}
+
+#banner {
+   width: 100%;
+   float: none;
+   padding-top: 10px;
+}
+
+#buzz {
+  width : 33%px;
+  height : 100px;
+  padding : 0px;
+}
+
+.gfg-root {
+  width : 100%;
+  height : 100;
+  position : relative;
+  overflow : hidden;
+  text-align : center;
+  font-family: "Arial", sans-serif;
+  font-size: 12px;
+}
+
+.gfg-title {
+  font-size: 14px;
+  font-weight : bold;
+  color : #3366cc;
+  background-color: #E5ECF9;
+  line-height : 1.4em;
+  overflow : hidden;
+  white-space : nowrap;
+   display: none;
+}
+
+.gfg-title a {
+  color : #3366cc;
+}
+
+.gfg-subtitle {
+  font-size: 12px;
+  font-weight : bold;
+  color : #3366cc;
+  background-color: #E5ECF9;
+  line-height : 1.4em;
+  overflow : hidden;
+  white-space : nowrap;
+  margin-bottom : 0px;
+   display: none;
+
+}
+
+.gfg-subtitle a {
+  color : #3366cc;
+}
+
+.gfg-entry {
+  background-color : white;
+  width : 100%;
+  height : 6.9em;
+  position : relative;
+  overflow : hidden;
+  text-align : left;
+  margin-top : 0px;
+}
+
+/* To allow correct behavior for overlay */
+.gfg-root .gfg-entry .gf-result {
+  position : relative;
+  background-color : white;
+  width : auto;
+  height : 100%;
+  padding-left : 0px;
+  padding-right : 0px;
+}
+
+.gfg-list {
+  display: none;
+  position : relative;
+  overflow : hidden;
+  text-align : left;
+  margin-bottom : 0px;
+}
+
+.gfg-listentry {
+  line-height : 1.5em;
+  overflow : hidden;
+  white-space : nowrap;
+  text-overflow : ellipsis;
+  -o-text-overflow : ellipsis;
+  padding-left : 0px;
+  padding-right : 0px;
+  margin-left : 0px;
+  margin-right : 0px;
+}
+
+.gfg-listentry-odd {
+  background-color : #F6F6F6;
+}
+
+.gfg-listentry-even {
+}
+
+.gfg-listentry-highlight { 
+  background-image : url('garrow.gif');
+  background-repeat: no-repeat;
+  background-position : center left;
+}
+
+/*
+ * FeedControl customizations.
+ */
+
+.gfg-root .gfg-entry .gf-result .gf-title {
+  font-size: 14px;
+  line-height : 1.2em;
+  overflow : hidden;
+  white-space : nowrap;
+  text-overflow : ellipsis;
+  -o-text-overflow : ellipsis;
+  margin-bottom : 0px;
+}
+
+.gfg-root .gfg-entry .gf-result .gf-snippet {
+  height : 3.8em;
+  color: #000000;
+  margin-top : 0px;
+}
+
+/*
+ * Easy way to get horizontal mode, applicable via js options to gadget.
+ */
+
+.gfg-horizontal-container {
+  position : relative;
+}
+
+.gfg-horizontal-root {
+  height : 1.5em;
+  _height : 100%;
+  position : relative;
+  white-space : nowrap;
+  overflow : hidden;
+  text-align : center;
+  font-family: "Arial", sans-serif;
+  font-size: 13px;
+  border: 1px solid #AAAAAA;
+  padding : 0px;
+  margin-right : 0px;
+}
+
+.gfg-horizontal-root .gfg-title {
+  font-weight : bold;
+  background-color: #FFFFFF;
+  line-height : 1.5em;
+  overflow : hidden;
+  white-space : nowrap;
+  float : left;
+  padding-left : 0px;
+  padding-right : 0px;
+  border-right: 1px solid #AAAAAA;
+}
+
+.gfg-horizontal-root .gfg-title a {
+  color : #444444;
+  text-decoration : none;
+}
+
+.gfg-horizontal-root .gfg-entry {
+  width : auto;
+  height : 1.5em;
+  position : relative;
+  overflow : hidden;
+  text-align : left;
+  margin-top : 0px;
+  margin-left : 0px;
+  padding-left : 0px;
+}
+
+/* To allow correct behavior for overlay */
+.gfg-horizontal-root .gfg-entry .gf-result {
+  position : relative;
+  background-color : white;
+  width : 100%;
+  height : 100%;
+  line-height : 1.5em;
+  overflow : hidden;
+  white-space : nowrap;
+}
+
+.gfg-horizontal-root .gfg-list {
+  display : none;
+}
+
+/*
+ * FeedControl customizations.
+ */
+
+.gfg-horizontal-root .gfg-entry .gf-result .gf-snippet,
+.gfg-horizontal-root .gfg-entry .gf-result .gf-author {
+  display : none;
+}
+
+.gfg-horizontal-root .gfg-entry  .gf-result .gf-title {
+  color: #0000cc;
+  margin-right : 3px;
+  float : left;
+}
+
+.gfg-horizontal-root .gfg-entry .gf-result .gf-spacer {
+  float : left;
+}
+
+.gfg-horizontal-root .gfg-entry .gf-result .gf-spacer,
+.gfg-horizontal-root .gfg-entry .gf-result .gf-relativePublishedDate {
+  display : block;
+  color: #AAAAAA;
+}
+
+.gfg-branding {
+  white-space : nowrap;
+  overflow : hidden;
+  text-align : left;
+  position : absolute;
+  right : 0px;
+  top : 0px;
+  width : 80px;
+}
+
+.gfg-collapse-open, .gfg-collapse-closed {
+  background-repeat : no-repeat;
+  background-position : center;
+  cursor : pointer;
+  float : right;
+  width : 17px;
+  height : 20px;
+}
+
+.gfg-collapse-open {
+  background-image : url('arrow_open.gif');
+}
+
+.gfg-collapse-closed {
+  background-image : url('arrow_close.gif');
+}
+
+.gfg-collapse-href {
+  float : left;
+}
+
+.clearFloat {
+  clear : both;
+}

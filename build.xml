@@ -3,6 +3,12 @@
   <property name="build.dir" location="target"/>
   <property name="xslt.dir" location="${basedir}/src/xslt"/>
   
+  <taskdef name="S3Upload" classname="dak.ant.taskdefs.S3Upload">
+    <classpath>
+      <fileset dir="lib" includes="*.jar"/>
+    </classpath>
+  </taskdef>
+
   <target name="clean">
     <delete dir="${build.dir}"/>
   </target>
@@ -15,6 +21,26 @@
     <xslt in="${basedir}/src/xml/groups.xml"
           out="${build.dir}/enhanced-groups.xml"
           style="${xslt.dir}/enhance-groups.xsl"/>
+  </target>
+  
+  <target name="build-site" depends="enhance-groups">
+    <copy todir="${build.dir}">
+      <fileset dir="src/css"/>
+    </copy>
+    <xslt in="${build.dir}/enhanced-groups.xml"
+          out="${build.dir}/index.html"
+          style="${xslt.dir}/groups-to-html.xsl"/>
+  </target>
+
+  <target name="upload-site" depends="build-site">
+    <property file="${basedir}/aws.properties"/>
+    <S3Upload verbose="true"
+              accessId="${aws.accessId}"
+              secretKey="${aws.secretKey}"
+              bucket="www.scala-tribes.org"
+              publicRead="true">
+      <fileset dir="${build.dir}" includes="*.*"/>
+    </S3Upload>
   </target>
 
   <target name="build-html" depends="enhance-groups">

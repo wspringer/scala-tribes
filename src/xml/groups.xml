@@ -261,4 +261,93 @@
       <news>http://groups.google.com/group/polish-scala-group/feed/rss_v2_0_msgs.xml</news>
     </feeds>
   </group>
+  <group>
+    <name>Scala Korea</name>
+    <url>http://groups.google.co.kr/group/scala-korea</url>
+    <woeid>1132599</woeid>
+    <feeds>
+      <news>http://groups.google.co.kr/group/scala-korea/feed/rss_v2_0_msgs.xml</news>
+    </feeds>
+  </group>
+  <group>
+    <name>Scala-MUG</name>
+    <url>https://groups.google.com/group/scalamug</url>
+    <woeid>23424900</woeid>
+    <feeds>
+      <news>https://groups.google.com/group/scalamug/feed/rss_v2_0_msgs.xml</news>
+    </feeds>
+  </group>
+  <group>
+    <name>Warsaw Area Scala Enthusiasts Group</name>
+    <url>http://groups.google.com/group/waseg?pli=1</url>
+    <woeid>523920</woeid>
+    <feeds>
+      <news>http://groups.google.com/group/waseg/feed/rss_v2_0_msgs.xml</news>
+    </feeds>
+  </group>
+
+  <group>
+    <name>Scala Enthusiasts Group Lausanne</name>
+    <url>http://groups.google.com/group/scala-enthusiasts-lausanne/</url>
+    <woeid>783058</woeid>
+    <feeds>
+      <news>http://groups.google.com/group/scala-enthusiasts-lausanne/feed/rss_v2_0_msgs.xml</news>
+    </feeds>
+  </group>
+
+  <group>
+    <name>PHASE (Philly Area Scala Enthusiasts)</name>
+    <url>http://groups.google.com/group/scala-phase/</url>
+    <woeid>2471217</woeid>
+    <feeds>
+      <news>http://groups.google.com/group/scala-phase/feed/rss_v2_0_msgs.xml</news>
+    </feeds>
+  </group>
+
+  <group>
+    <name>Scala User Group Uruguay</name>
+    <url>http://groups.google.com/group/scala-users-group-uruguay</url>
+    <woeid>23424979</woeid>
+    <feeds>
+      <news>http://groups.google.com/group/scala-users-group-uruguay/feed/rss_v2_0_msgs.xml</news>
+    </feeds>
+  </group>
+  
+  <group>
+    <name>Scala-br</name>
+    <url>http://groups.google.com/group/scala-br</url>
+    <woeid>23424768</woeid>
+    <feeds>
+      <news>http://groups.google.com/group/scala-br/feed/rss_v2_0_msgs.xml</news>
+    </feeds>
+  </group>
+
+  <group>
+    <name>Scala Stockholm</name>
+    <url>http://www.meetup.com/Scala-Stockholm/</url>
+    <woeid>906057</woeid>
+    <calendar>http://www.meetup.com/Scala-Stockholm/calendar/ical/Scala+Stockholm/</calendar>
+  </group>
+  
+  <group>
+    <name>DC Scala</name>
+    <url>http://www.meetup.com/dc-scala/</url>
+    <woeid>2514815</woeid>
+    <calendar>http://www.meetup.com/dc-scala/events/ical/DC+Scala/</calendar>
+  </group>
+  <group>
+    <name>Iowa Scala Enthusiasts</name>
+    <url>http://www.meetup.com/ia-scala</url>
+    <woeid>2347574</woeid>
+    <calendar>http://www.meetup.com/ia-scala/events/ical/Iowa+Scala+Enthusiasts/</calendar>
+  </group>
+
+  <group>
+    <name>Scala Enthusiasts Belarus</name>
+    <url>http://groups.google.com/group/scala-enthusiasts-belarus</url>
+    <woeid>23424765</woeid>
+    <feeds>
+      <news>http://groups.google.com/group/scala-enthusiasts-belarus/feed/atom_v1_0_msgs.xml</news>
+    </feeds>
+  </group>
 </groups>

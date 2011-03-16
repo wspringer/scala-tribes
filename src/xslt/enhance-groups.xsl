@@ -7,6 +7,9 @@
   </xsl:template>
 
   <xsl:template match="groups">
+    <xsl:processing-instruction name="xml-stylesheet">
+      <xsl:text>type="text/xsl" href="../src/xslt/groups-to-html.xsl" media="screen"</xsl:text>
+    </xsl:processing-instruction>
     <groups>
       <xsl:apply-templates/>
     </groups>

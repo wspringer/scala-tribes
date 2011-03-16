@@ -10,6 +10,14 @@
           <atom:name>Wilfred Springer</atom:name>    
         </atom:author>    
         <atom:link href="http://scala-tribes.org/"/>
+        <Style id="randomColorIcon">
+          <IconStyle>
+            <Icon>
+              <href>https://s3.amazonaws.com/scala-tribes.org/dot.png</href>
+            </Icon>
+            <hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+          </IconStyle>
+        </Style>
         <xsl:apply-templates/>
         <!--
         <Placemark>      
@@ -36,6 +44,12 @@
   <xsl:template match="group">
     <Placemark>
       <name><xsl:value-of select="name"/></name>
+      <description>
+        <xsl:text>&lt;p&gt;</xsl:text>
+        <xsl:value-of select="url"/>
+        <xsl:text>&lt;/p&gt;</xsl:text>
+      </description>
+      <styleUrl>#randomColorIcon</styleUrl>
       <atom:link href="{url[position()=1]}"/>
       <Point>
         <coordinates>

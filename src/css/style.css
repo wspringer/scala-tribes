@@ -1,3 +1,8 @@
+#counter {
+   font-size: 20pt;
+   font-weight: bold;
+}
+
 tr th {
    text-align: left;
    padding-bottom: 10px;
@@ -100,7 +105,7 @@ table {
 }
 
 #remainder {
-   padding-top: 20px;
+   padding-top: 0px;
    clear: both;
    float: none;
    padding-bottom: 40px;
@@ -114,7 +119,7 @@ table {
 
 #buzz {
   width : 33%px;
-  height : 100px;
+  height : 130px;
   padding : 0px;
 }
 

@@ -23,14 +23,7 @@
           style="${xslt.dir}/enhance-groups.xsl"/>
   </target>
   
-  <target name="build-site" depends="enhance-groups">
-    <copy todir="${build.dir}">
-      <fileset dir="src/css"/>
-    </copy>
-    <xslt in="${build.dir}/enhanced-groups.xml"
-          out="${build.dir}/index.html"
-          style="${xslt.dir}/groups-to-html.xsl"/>
-  </target>
+  <target name="build-site" depends="build-html,build-kml"/>
 
   <target name="upload-site" depends="build-site">
     <property file="${basedir}/aws.properties"/>
@@ -44,9 +37,12 @@
   </target>
 
   <target name="build-html" depends="enhance-groups">
+    <copy todir="${build.dir}">
+      <fileset dir="src/css"/>
+    </copy>
     <xslt in="${build.dir}/enhanced-groups.xml"
-          out="${build.dir}/scala-tribes.html"
-          style="${xslt.dir}/enhanced-groups-to-html.xsl"/>
+          out="${build.dir}/index.html"
+          style="${xslt.dir}/groups-to-html.xsl"/>
   </target>
 
   <target name="build-kml" depends="enhance-groups">

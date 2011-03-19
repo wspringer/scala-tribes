@@ -350,4 +350,23 @@
       <news>http://groups.google.com/group/scala-enthusiasts-belarus/feed/atom_v1_0_msgs.xml</news>
     </feeds>
   </group>
+  <group>
+    <name>Los Angeles Scala User Group</name>
+    <url>http://www.meetup.com/Los-Angeles-Scala-Users-Group/events/16872648/</url>
+    <woeid>2442047</woeid>
+    <calendar>http://www.meetup.com/Los-Angeles-Scala-Users-Group/events/ical/Los+Angeles+Scala+Users+Group/</calendar>
+  </group>
+  <group>
+    <name>Göteborgs Scalaentusiaster</name>
+    <url>http://www.meetup.com/Scala-Geats/events/16869738/</url>
+    <woeid>890869</woeid>
+    <calendar>http://www.meetup.com/Scala-Geats/events/ical/G%F6teborgs+Scalaentusiaster/</calendar>
+  </group>
+  <group>
+    <name>Scala Users Tribe Canberra</name>
+    <url>http://www.meetup.com/Scala-Users-Tribe-Canberra/</url>
+    <woeid>1100968</woeid>
+    <calendar>http://www.meetup.com/Scala-Users-Tribe-Canberra/events/ical/Scala+Users+Tribe+Canberra/</calendar>
+  </group>
+  
 </groups>

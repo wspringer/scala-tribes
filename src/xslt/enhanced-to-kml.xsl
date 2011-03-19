@@ -45,9 +45,11 @@
     <Placemark>
       <name><xsl:value-of select="name"/></name>
       <description>
-        <xsl:text>&lt;p&gt;</xsl:text>
+        <xsl:text>&lt;p&gt;Click &lt;a href="</xsl:text>
         <xsl:value-of select="url"/>
-        <xsl:text>&lt;/p&gt;</xsl:text>
+        <xsl:text>"&gt;here&lt;/a&gt; for the home page of </xsl:text>
+        <xsl:value-of select="name"/>
+        <xsl:text>.&lt;/p&gt;</xsl:text>
       </description>
       <styleUrl>#randomColorIcon</styleUrl>
       <atom:link href="{url[position()=1]}"/>

@@ -2,6 +2,12 @@
   
   <property name="build.dir" location="target"/>
   <property name="xslt.dir" location="${basedir}/src/xslt"/>
+
+  <taskdef name="greader" classname="org.scala.tribes.GreaderUpdaterTask">
+    <classpath>
+      <fileset dir="target/appassembler/repo" includes="*.jar"/>
+    </classpath>
+  </taskdef>
   
   <taskdef name="S3Upload" classname="dak.ant.taskdefs.S3Upload">
     <classpath>
@@ -26,7 +32,7 @@
   <target name="build-site" depends="build-html,build-kml"/>
 
   <target name="upload-site" depends="build-site">
-    <property file="${basedir}/aws.properties"/>
+    <property file="${basedir}/build.properties"/>
     <S3Upload verbose="true"
               accessId="${aws.accessId}"
               secretKey="${aws.secretKey}"
@@ -36,9 +42,19 @@
     </S3Upload>
   </target>
 
+  <target name="update-greader">
+    <property file="${basedir}/build.properties"/>
+    <greader email="${greader.email}"
+             password="${greader.password}"
+             file="src/xml/groups.xml"/>
+  </target>
+
   <target name="build-html" depends="enhance-groups">
     <copy todir="${build.dir}">
       <fileset dir="src/css"/>
+    </copy>
+    <copy todir="${build.dir}">
+      <fileset dir="src/script"/>
     </copy>
     <xslt in="${build.dir}/enhanced-groups.xml"
           out="${build.dir}/index.html"

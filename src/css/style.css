@@ -1,3 +1,34 @@
+#slides .prev {
+   color: #808080;
+   float: left;
+}
+
+#slides .next {
+   color: #808080;
+   float: right;
+}
+
+a#slides_container {
+   height:170px;
+}
+
+#slides_container {
+}
+
+#slides_container div {
+   height:170px;
+}
+
+.eventname {
+   color: white;
+   font-weight: bold;
+   font-size: 13pt;
+}
+
+.eventname a {
+   color: white;
+}
+
 #counter {
    font-size: 20pt;
    font-weight: bold;
@@ -12,10 +43,12 @@ tr th {
 #message {
    color: white;
    background-color: #333333;
-   padding-top: 1px;
-   padding-bottom: 1px;
-   padding-left: 3px;
-   padding-right: 3px;
+   padding-top: 6px;
+   padding-bottom: 6px;
+   padding-left: 6px;
+   padding-right: 6px;
+   height: 60px;
+   overflow: hidden;
 }
 
 td {

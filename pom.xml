@@ -6,6 +6,17 @@
     <name>Scala Tribes Utilities</name>
     <dependencies>
         <dependency>
+            <groupId>org.apache.ant</groupId>
+            <artifactId>ant</artifactId>
+            <version>1.7.1</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava-base</artifactId>
+            <version>r03</version>
+        </dependency>
+        <dependency>
             <groupId>nl.flotsam</groupId>
             <artifactId>greader-java</artifactId>
             <version>1.0-SNAPSHOT</version>
@@ -37,6 +48,7 @@
                 <version>1.0</version>
                 <artifactId>appassembler-maven-plugin</artifactId>
                 <configuration>
+                    <repositoryLayout>flat</repositoryLayout>
                     <programs>
                         <program>
                             <mainClass>org.scala.tribes.GreaderUpdater</mainClass>

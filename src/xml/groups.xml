@@ -54,8 +54,8 @@
     <woeid>2379574</woeid>
   </group>
   <group>
-    <name>New York Scala Enthusiasts</name>
-    <url>http://www.meetup.com/New-York-Scala-Enthusiasts/</url>
+    <name>New York Scala Types</name>
+    <url>http://www.meetup.com/ny-scala</url>
     <description>We're the other, better, more awesome NYSE. We're focused on discussing the Scala Programming Language's uses, patterns, and practices.</description>
     <feeds>
       <info>http://www.developerfusion.com/usergroup/13182/events/format/rss/</info>

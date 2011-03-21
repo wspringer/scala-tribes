@@ -1,16 +1,31 @@
 package org.scala.tribes;
 
-import nl.flotsam.greader.ReaderTemplate;
-import nu.xom.*;
+import java.io.File;
+import java.io.IOException;
 import org.kohsuke.args4j.Argument;
 import org.kohsuke.args4j.CmdLineException;
 import org.kohsuke.args4j.CmdLineParser;
 import org.kohsuke.args4j.Option;
 
-import java.io.File;
-import java.io.IOException;
+import static com.google.common.base.Preconditions.checkNotNull;
+import nl.flotsam.greader.ReaderTemplate;
+import nu.xom.Builder;
+import nu.xom.Document;
+import nu.xom.Node;
+import nu.xom.Nodes;
+import nu.xom.ParsingException;
 
 public class GreaderUpdater {
+
+    public GreaderUpdater(String email, String password, File file) {
+        this();
+        checkNotNull(email);
+        checkNotNull(password);
+        checkNotNull(file);
+        this.email = email;
+        this.password = password;
+        this.file = file;
+    }
 
     private GreaderUpdater() {
     }
@@ -32,12 +47,13 @@ public class GreaderUpdater {
             updater.execute();
         } catch (CmdLineException e) {
             System.err.println(e.getMessage());
+            parser.printUsage(System.err);
             System.err.println();
             System.exit(1);
         }
     }
 
-    private void execute() throws IOException, ParsingException {
+    public void execute() throws IOException, ParsingException {
         ReaderTemplate template = new ReaderTemplate(email, password);
         Document document = new Builder().build(file);
         String token = template.getToken();
